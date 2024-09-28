@@ -1,6 +1,10 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "strict": true
+    "strict": true,
+    "jsx": "react-native", // Adiciona suporte ao JSX no React Native
+    "esModuleInterop": true, // Facilita a importação de módulos CommonJS
+    "skipLibCheck": true, // Ignora verificação de tipos em bibliotecas
+    "forceConsistentCasingInFileNames": true // Força consistência em letras maiúsculas/minúsculas em importações
   }
 }
